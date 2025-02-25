@@ -1,10 +1,18 @@
 [
-        {
+	// This is a placeholder that is needed for unique buildings in some mods, in case of occuring Error
+       	{
+		"name": "Colosseum",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
 		"name": "Theatre",
 		"happiness": 3,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
 		"requiredBuilding": "Colosseum",
-		"requiredTech": "Printing Press"
+		"requiredTech": "Printing Press",
 	},
 ]
